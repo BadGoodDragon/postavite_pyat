@@ -18,6 +18,15 @@ public class Main {
         return input_chars;
     }
 
+    public static void out (char[] input_chars) {
+        for (int i = 0; i < input_chars.length; i++) {
+            if (i != 0) {
+                System.out.print(", ");
+            }
+            System.out.print(input_chars[i]);
+        }
+    }
+
     public static void main(String[] args) {
         
     }
